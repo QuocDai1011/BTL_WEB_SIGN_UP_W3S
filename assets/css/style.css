@@ -306,3 +306,26 @@ body {
     margin-left: 2px;
     color: red;
 }
+
+.pass-container {
+    display: flex;
+}
+
+.toggle-password {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: var(--white-color);
+    margin-left: 4px;
+}
+
+.toggle-password:hover {
+    background-color: #bbb;
+    cursor: pointer;
+}
+
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear,
+input[type="password"]::-webkit-credentials-auto-fill-button {
+    display: none;
+}

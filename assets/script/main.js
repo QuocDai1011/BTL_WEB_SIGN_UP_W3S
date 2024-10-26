@@ -38,3 +38,14 @@ document.querySelector('.right__btn').addEventListener('click', function(event) 
     // Nếu không có lỗi, có thể gửi dữ liệu hoặc thực hiện các bước tiếp theo
     show.innerHTML = 'Sign up successful!';
 });
+document.querySelector('.toggle-password').addEventListener('click', function() {
+    const passwordInput = document.querySelector('.password-input');
+
+    if (passwordInput.type === 'password') {
+        passwordInput.type = 'text';
+        this.innerText = '🙈'; // Thay đổi biểu tượng để biểu thị trạng thái mới
+    } else {
+        passwordInput.type = 'password';
+        this.innerText = '👁️'; // Trở lại biểu tượng ban đầu
+    }
+});
