@@ -1,0 +1,108 @@
+/* Responesive in PC */
+
+@media (max-width: 64em) {}
+
+
+/* Responesive in Tablet and Mobile  */
+
+@media (max-width: 63.9375em) {
+    .content {
+        width: 100%;
+        padding: 0;
+    }
+    .content__right {
+        width: 100%;
+        border-radius: 0;
+        padding-top: 96px;
+    }
+    .right__socials-content {
+        width: 60%;
+        padding-right: 32px;
+        padding-left: 16px;
+    }
+    .right__have-account {
+        justify-content: flex-end;
+    }
+    .input {
+        padding: 23px 16px;
+    }
+    .right__btn {
+        height: 48px;
+    }
+    .right__checked-email-checkbox {
+        width: 24px;
+    }
+    .left__link {
+        position: absolute;
+        top: -145%;
+        left: 7%;
+    }
+    .left__img-moblie {
+        display: none;
+    }
+    .left-header {
+        text-align: center;
+    }
+    .left__text {
+        text-align: center;
+    }
+    .left__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content__left {
+        width: 100%;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__img {
+        margin-bottom: 64px;
+    }
+    .footer__content {
+        text-align: center;
+    }
+}
+
+
+/* Responesive in Tablet */
+
+
+/* 46.25em && 63.9375em */
+
+@media (min-width: 46.25em) and (max-width: 63.9375em) {}
+
+
+/* Responesive in Mobile */
+
+@media (max-width: 46.1875em) {
+    .for-teacher {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: url(../img/LogInHeader.svg) no-repeat center / cover;
+        padding: 8px 0;
+    }
+    .for-teacher__header {
+        margin: 0;
+    }
+    .footer {
+        width: 100%;
+    }
+    .footer__content {
+        width: 130%;
+    }
+    .footer__copyright {
+        text-align: center;
+        width: 130%;
+    }
+    .content__right {
+        width: 100%;
+        border-radius: 0;
+        padding-top: 96px;
+        padding: 96px 32px;
+    }
+}
