@@ -15,9 +15,10 @@ document.querySelector('.right__btn').addEventListener('click', function(event) 
     }
 
     // Kiểm tra mật khẩu
-    const passwordPattern = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
+    const passwordPattern = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+
     if (!passwordPattern.test(password.value)) {
-        show.innerHTML = 'Password must have 8 character, including letters and numbers.'
+        show.innerHTML = 'Password must have at least 8 characters, including letters, numbers, and a special character.';
         password.focus();
         return;
     }
