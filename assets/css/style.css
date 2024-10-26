@@ -300,3 +300,9 @@ body {
 .footer__copyright-link {
     color: var(--white-color);
 }
+
+.checked {
+    font-size: 1.2rem;
+    margin-left: 2px;
+    color: red;
+}
