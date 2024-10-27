@@ -329,3 +329,7 @@ input[type="password"]::-ms-clear,
 input[type="password"]::-webkit-credentials-auto-fill-button {
     display: none;
 }
+
+.footer__copyright-link:hover {
+    color: #fff4a3;
+}
