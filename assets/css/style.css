@@ -313,8 +313,8 @@ body {
 
 .toggle-password {
     height: 40px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+    border-radius: 1000px;
+    border: none;
     background-color: var(--white-color);
     margin-left: 4px;
 }
