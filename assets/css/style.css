@@ -117,7 +117,7 @@ body {
 
 .background__check {
     background-color: var(--primary-color);
-    border-radius: 50%;
+    border-radius: 30px;
     padding: 2px 3px;
 }
 
