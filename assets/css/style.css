@@ -353,3 +353,10 @@ input[type="password"]::-webkit-credentials-auto-fill-button {
     font-size: 1.5rem;
     margin-right: 8px;
 }
+
+input[type="text"], 
+input[type="email"], 
+input[type="tel"], 
+input[type="number"] {
+    font-size: 1.6rem;
+}
